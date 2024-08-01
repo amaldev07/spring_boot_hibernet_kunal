@@ -13,3 +13,12 @@
             Find the Path variable under System Variables and edit it.
             Add a new entry with %MAVEN_HOME%\bin.
             Open a new command prompt and run mvn -version to verify the installation.
+3. To automatically build and run your Java application after each change
+    Use Spring Boot DevTools
+        Add the dependency to your pom.xml
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <optional>true</optional>
+        </dependency>
+

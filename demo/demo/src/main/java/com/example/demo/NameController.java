@@ -10,6 +10,6 @@ public class NameController {
 
     @GetMapping("/getname")
     public String getName() {
-        return "Amaldev";
+        return "My name is Amaldev";
     }
 }
